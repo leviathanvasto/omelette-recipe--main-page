@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap');
+@media (max-width :1440px){
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: hsl(30, 54%, 90%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    flex-direction: column;
+    border-radius: 10;
+
+}
+
+
+.content-all {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    padding: 40px;
+    max-width: 640px;
+    margin: 150px;
+    gap: 40px;
+}
+
+
+.omelette img {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+
+}
+
+.title {
+    font-family: 'Young Serif', serif;
+    font-size: 40px;
+    color: hsl(24, 5%, 18%);
+
+}
+
+.content-all .all-paragraph {
+    font-family: 'Outfit', sans-serif;
+    color: hsl(30, 10%, 34%);
+
+}
+
+.all-paragraph .Preparation {
+    color: hsl(332, 51%, 32%);
+    font-size: 20px;
+    line-height: 40px;
+
+
+
+}
+
+.color-background {
+    background-color: hsl(330, 100%, 98%);
+    padding: 25px;
+    border-radius: 15px;
+    line-height: 25px;
+
+}
+
+.color-background .Preparation- li {
+
+    margin-left: 1rem;
+    padding-bottom: 1%;
+
+
+}
+
+.color-background .Preparation- strong {
+    color: hsl(30, 10%, 34%);
+
+}
+
+.all-paragraph .paragraph-one {
+    margin-bottom: 2rem;
+}
+
+hr {
+    border-style: solid;
+    border-color: hsl(30, 18%, 87%);
+    margin: 15px 0px;
+}
+
+.Ingredients {
+    font-family: 'Young Serif', serif;
+    font-size: 30px;
+    color: hsl(14, 45%, 36%);
+    margin: 25px 0px;
+
+}
+
+.Ingredients-list {
+    line-height: 30px;
+    margin-left: 3%;
+
+
+}
+
+.Ingredients-list li::marker {
+    color: hsl(14, 45%, 36%);
+
+}
+
+.color-background .Preparation- li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+.Instructions {
+    font-family: 'Young Serif', serif;
+    font-size: 30px;
+    color: hsl(14, 45%, 36%);
+    margin: 25px 0px;
+
+}
+
+.Instructions-ordened {
+    line-height: 30px;
+    margin-left: 3%;
+
+}
+
+.Instructions-ordened li::marker {
+    color: hsl(332, 51%, 32%);
+    font-weight: bold;
+
+}
+
+.Nutrition {
+    font-family: 'Young Serif', serif;
+    font-size: 30px;
+    color: hsl(14, 45%, 36%);
+    margin: 25px 0px;
+
+}
+
+.text-2 {
+    margin-bottom: 20px;
+
+}
+
+.Nutrition-content .calories {
+    word-spacing: 250px;
+    margin-left: 1rem;
+}
+
+.Nutrition-content .carbs {
+    word-spacing: 264px;
+    margin-left: 1rem;
+}
+
+.Nutrition-content .protein {
+    word-spacing: 257px;
+    margin-left: 1rem;
+}
+
+.Nutrition-content .fat {
+    word-spacing: 284px;
+    margin-left: 1.1rem;
+}
+
+
+.Nutrition-content strong {
+    color: hsl(14, 45%, 36%);
+    ;
+}}
+
+
+@media screen and (max-width: 768px) {
+    .content-all {
+      max-width: 100%; 
+      margin:0;
+      padding: 1rem;
+    }
+  }
